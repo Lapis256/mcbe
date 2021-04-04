@@ -4,7 +4,7 @@
         "description": "Remove skinviews and messages from npc_interact",
         "name": "Simple NPC",
         "uuid": "152d233a-9332-4491-9dbe-584aa7e28f94",
-        "version": [0, 0, 1],
+        "version": [0, 0, 2],
         "min_engine_version": [1, 16, 0]
     },
     "modules": [
@@ -17,8 +17,9 @@
     ],
     "metadata": {
         "authors": [
-            "@Lapis_256"
+            "Lapis256"
         ],
-        "url": "https://twitter.com/Lapis_256"
+        "url": "https://github.com/Lapis256/mcbe/tree/main/resource/simple_npc",
+        "license": "https://github.com/Lapis256/mcbe/blob/main/LICENSE"
     }
 }
