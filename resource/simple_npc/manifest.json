@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Remove skinviews and messages from npc_interact",
+        "name": "Simple NPC",
+        "uuid": "152d233a-9332-4491-9dbe-584aa7e28f94",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 16, 0]
+    },
+    "modules": [
+        {
+            "description": "Remove skinviews and messages from npc_interact",
+            "type": "resources",
+            "uuid": "6f6760df-1373-4c40-83a6-daec6f31d681",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "@Lapis_256"
+        ],
+        "url": "https://twitter.com/Lapis_256"
+    }
+}
