@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "dialogue example",
+        "name": "dialogue example",
+        "uuid": "a49ab8bb-6e88-475a-9ec7-28d2e925b405",
+        "version": [0, 0, 2],
+        "min_engine_version": [1, 17, 10]
+    },
+    "modules": [
+        {
+            "description": "dialogue example",
+            "type": "resources",
+            "uuid": "5f71c774-9003-41fe-8316-c20c9606a219",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Lapis256"
+        ],
+        "url": "https://github.com/Lapis256/mcbe/tree/main/resource/dialogue_example",
+        "license": "https://github.com/Lapis256/mcbe/blob/main/LICENSE"
+    }
+}

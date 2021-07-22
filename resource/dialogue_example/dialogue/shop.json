@@ -1,0 +1,172 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "shop",
+                "npc_name": "店員",
+                "text": "ようこそ、 何か買っていきますか？",
+                "buttons": [
+                    {
+                        "name": "インゴット",
+                        "commands": [
+                            "/dialogue open @s @initiator shop_ingot"
+                        ]
+                    },
+                    {
+                        "name": "鉱石",
+                        "commands": [
+                            "/dialogue open @s @initiator shop_ore"
+                        ]
+                    },
+                    {
+                        "name": "建材",
+                        "commands": [
+                            "/dialogue open @s @initiator shop_building"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "shop_ingot",
+                "npc_name": "店員 - インゴット",
+                "text": "金属インゴットです。",
+                "buttons": [
+                    {
+                        "name": "戻る",
+                        "commands": [
+                            "/dialogue open @s @initiator shop"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "item.iron_ingot.name" }] },
+                        "commands": [
+                            "/give @initiator iron_ingot",
+                            "/dialogue open @s @initiator shop_ingot"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "item.gold_ingot.name" }] },
+                        "commands": [
+                            "/give @initiator gold_ingot",
+                            "/dialogue open @s @initiator shop_ingot"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "item.copper_ingot.name" }] },
+                        "commands": [
+                            "/give @initiator copper_ingot",
+                            "/dialogue open @s @initiator shop_ingot"
+                        ]
+                    },
+                    {
+                        "name": " ",
+                        "commands": [
+                            "/dialogue open @s @initiator shop_ingot"
+                        ]
+                    },
+                    {
+                        "name": " ",
+                        "commands": [
+                            "/dialogue open @s @initiator shop_ingot"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "shop_ore",
+                "npc_name": "店員 - 鉱石",
+                "text": "鉱石です。",
+                "buttons": [
+                    {
+                        "name": "戻る",
+                        "commands": [
+                            "/dialogue open @s @initiator shop"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "tile.coal_ore.name" }] },
+                        "commands": [
+                            "/give @initiator coal_ore",
+                            "/dialogue open @s @initiator shop_ore"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "tile.iron_ore.name" }] },
+                        "commands": [
+                            "/give @initiator iron_ore",
+                            "/dialogue open @s @initiator shop_ore"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "tile.gold_ore.name" }] },
+                        "commands": [
+                            "/give @initiator gold_ore",
+                            "/dialogue open @s @initiator shop_ore"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "tile.copper_ore.name" }] },
+                        "commands": [
+                            "/give @initiator copper_ore",
+                            "/dialogue open @s @initiator shop_ore"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "tile.diamond_ore.name" }] },
+                        "commands": [
+                            "/give @initiator diamond_ore",
+                            "/dialogue open @s @initiator shop_ore"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "shop_building",
+                "npc_name": "店員 - 建材",
+                "text": "建材です。",
+                "buttons": [
+                    {
+                        "name": "戻る",
+                        "commands": [
+                            "/dialogue open @s @initiator shop"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "tile.planks.oak.name" }] },
+                        "commands": [
+                            "/give @initiator planks",
+                            "/dialogue open @s @initiator shop_building"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "tile.glass.name" }] },
+                        "commands": [
+                            "/give @initiator glass",
+                            "/dialogue open @s @initiator shop_building"
+                        ]
+                    },
+                    {
+                        "name": { "rawtext": [{ "translate": "tile.stonebrick.default.name" }] },
+                        "commands": [
+                            "/give @initiator stonebrick",
+                            "/dialogue open @s @initiator shop_building"
+                        ]
+                    },
+                    {
+                        "name": " ",
+                        "commands": [
+                            "/dialogue open @s @initiator shop_building"
+                        ]
+                    },
+                    {
+                        "name": " ",
+                        "commands": [
+                            "/dialogue open @s @initiator shop_building"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
