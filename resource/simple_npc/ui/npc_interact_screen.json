@@ -1,21 +1,18 @@
 {
   "namespace": "npc_interact",
-  "basic_stack_panel@npc_interact.main_stack_panel": {
-    "controls": [
-      { "top_pad@common.empty_panel": { "size": [ "100%", 4 ] } },
-      { "name_label@edu_common.light_label": { "text": "npcscreen.name" } },
-      { "name_padding@npc_interact.label_padding": {} },
-      { "name_edit@npc_interact.name_edit": {} },
-      { "appearance_pre_padding@npc_interact.label_padding": {} },
-      { "appearance_label@edu_common.light_label": { "text": "npcscreen.appearance" } },
-      { "appearance_post_padding@npc_interact.label_padding": {} },
-      { "skins@npc_interact.skin_picker": {} },
-      { "advanced_button@npc_interact.advanced_button": {} }
-    ]
-  },
-  "student_stack_panel@npc_interact.main_stack_panel": {
-    "controls": [
-      { "buttons@npc_interact.student_buttons": {} }
-    ]
-  }
+
+  "basic_stack_panel/dialog_pre_padding": { "ignored": true },
+  "basic_stack_panel/dialog_label": { "ignored": true },
+  "basic_stack_panel/dialog_post_padding": { "ignored": true },
+  "basic_stack_panel/dialog__padding": { "ignored": true },
+  "basic_stack_panel/dialog_button": { "ignored": true },
+
+  "student_stack_panel/top_pad": { "ignored": true },
+  "student_stack_panel/message": { "ignored": true },
+  "student_stack_panel/message_pad": { "ignored": true }/*,
+  
+  "student_buttons/buttons/actions": {
+    "grid_dimension_binding": "",
+    "grid_dimensions": [ 4, 1 ]
+  }*/
 }
