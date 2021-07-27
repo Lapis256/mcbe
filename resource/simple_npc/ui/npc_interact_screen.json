@@ -9,10 +9,5 @@
 
   "student_stack_panel/top_pad": { "ignored": true },
   "student_stack_panel/message": { "ignored": true },
-  "student_stack_panel/message_pad": { "ignored": true }/*,
-  
-  "student_buttons/buttons/actions": {
-    "grid_dimension_binding": "",
-    "grid_dimensions": [ 4, 1 ]
-  }*/
+  "student_stack_panel/message_pad": { "ignored": true }
 }
