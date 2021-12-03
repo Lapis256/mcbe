@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Customized flat world template with bedrock x 1, dirt x 66, grass x 1.",
+        "name": "Old-FashionedFlatTemplate",
+        "uuid": "db2a825c-e0fc-44d3-8504-83d507a788bb",
+        "base_game_version": "*",
+        "lock_template_options": false,
+        "version": [ 1, 0, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Template module",
+            "type": "world_template",
+            "uuid": "f590ee59-1216-4b0f-b285-13db3ad894b3",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "metadata": {
+		"authors": [
+			"Lapis256"
+		],
+		"url": "https://github.com/Lapis256/mcbe/tree/main/world_template/Old-FashionedFlatTemplate",
+		"license": "https://github.com/Lapis256/mcbe/blob/main/LICENSE"
+	}
+}
